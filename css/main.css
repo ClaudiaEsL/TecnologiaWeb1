@@ -31,10 +31,12 @@ header, main, footer {
     max-width: 600px;
 }
 
-header, footer, footer a {
+header, footer {
     text-align: center;
     background-color:#8400ff70;
     color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2px outset;
 }
 
 header img {
