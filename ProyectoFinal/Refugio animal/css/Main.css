@@ -1,0 +1,54 @@
+/*Main*/
+#main{
+    display: block;
+    background-color: rgba(4, 0, 255, 0.192);
+}
+
+#Valores, #Videos{
+    margin:3% 0 0 0;
+    text-align: center;
+    display: block;
+}
+#Valores ol li{
+    display: inline-block;
+    width: 280px;
+    height: 450px;
+    margin: 1% 0 0 0;
+    background-color:#ff58335b;
+}
+#Valores ol li h2{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Grandstander', cursive;
+}
+
+#Valores ol li img{
+    display:block;
+    margin:auto;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px;
+}
+#Valores ol li p{
+    text-align:center;
+    margin-top:50px;
+    font-size:20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    padding: 15px 0 15px 0;
+}
+#Videos li{
+    margin: 0 0 5% 0;
+    display: inline-block;
+}
+#Videos h2{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Grandstander', cursive;
+}
+#Mensaje h3{
+    margin: 5% 0 0 0;
+    text-align:center;
+    font-size:1.8vw;
+    font-family: 'Grandstander', cursive;
+}

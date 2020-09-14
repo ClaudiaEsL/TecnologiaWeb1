@@ -1,0 +1,56 @@
+/*Main*/
+#Main{
+    background-color: rgba(4, 0, 255, 0.192);
+}
+/*Imagen*/
+#ContenedorImagen img{
+    width: 100%;
+}
+/*Titulos y subtitulos*/
+#Informacion h1{
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+    padding: 10px 0 10px 0;
+}
+#Informacion h2{
+    font-size: 25px;
+    font-family: 'Grandstander', cursive;
+    padding: 10px 0 10px 0;
+    color:#C70039;
+}
+#Informacion h3{
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    padding: 10px 0 10px 0;
+}
+/*Contenedores de informacion*/
+#Informacion ul{
+    padding: 10px 0 10px 40px;
+    width: 50%;
+}
+#Informacion ul li{
+    padding: 15px 0 15px 0;
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#Informacion p{
+    padding: 10px 50% 5% 5%;
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*Imagenes laterales derecha*/
+.Imagen img{
+    width: 40%;
+}
+.Uno{
+    width: 35%;
+    position: absolute;
+    top: 138%;
+    left:60%;
+}
+.Dos{
+    width:35%;
+    position: absolute;
+    top: 205%;
+    left:75%;
+}

@@ -1,0 +1,16 @@
+ #RedesSociales{
+    display:block;
+    position: fixed;
+    width: 10%;
+    left: 3%;
+    top:35%;
+ }
+ #RedesSociales img{
+    width: 35%;
+    margin-top: 15px;
+    cursor: pointer;
+ }
+#RedesSociales ul li{
+    list-style:none;
+    display: inline-block;
+}

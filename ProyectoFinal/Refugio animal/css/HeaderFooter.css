@@ -1,0 +1,131 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   margin: 0 10% 0 10%;
+}
+header{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1vw;
+    width: 100%;
+    background-color: #ff5833;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+footer{
+    font-family:'Domine', serif;
+    font-size: 1vw;
+    background-color: #ff5833;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    padding:0 0 50px 0;
+}
+/*Imagen de la cabecera*/
+#logo{
+    display: block;
+    align-self: auto;
+    width: 20%;
+}
+/*Imagen del pie de pagina*/
+footer img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+}
+/*Menu de navegacion*/
+nav ul li{
+    padding: 1% 0 0 0;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    list-style:none;
+}
+a:link{
+    text-decoration:none;
+}
+a{
+    color:#ffffff;
+}
+nav{
+    display: block;
+    width: 70%;
+    text-align: center;
+    align-self:flex-end;
+}
+/*Tamaño de los botones de navegacion*/
+.Botones{
+    width: 16%;
+    height: 3vmax;
+    text-align: center;
+}
+.n1{
+    background-color: #C70039;
+}
+.n2{
+    background-color: #581845;
+}
+/*Hover de los botones de navegacion*/
+.n1:hover,.n2:hover{
+    background-color: black;
+    transition: 0.9s;
+}
+/*Buscador*/
+#Buscador{
+    position: absolute;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+input{
+    padding: 8% 5% 5% 8%;
+    outline: none;
+    font-size:1vw;
+    color: rgb(0, 0, 0);
+    border: 3px solid #581845;
+    background:#fff url("Imagenes/search.png");
+    background-size: 9%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 10%;
+    width:80%;
+    transition:all .5s;
+    text-align:end;
+}
+/* Informacion de la organizacion*/
+#Contenedor{
+    display:block;
+    margin: 6% 0 6% 10%;
+}
+#Contenedor h3{
+    font-size:1.5vw;
+    font-family: 'Grandstander', cursive;
+    color:#C70039;
+}
+#Contenedor div{
+    margin-left: 10%;
+}
+#Bienvenidos{
+    background-color: rgba(4, 0, 255, 0.192);
+    display:inline-block;
+    padding: 10px 20px 10px 20px;
+    width: 28%;
+    box-shadow: 0px 0px 10px;
+}
+#Bienvenidos p{
+    padding: 10px 0 0 0 ;
+}
+#Direccion{
+    background-color: rgba(4, 0, 255, 0.192);
+    display:inline-block;
+    padding: 10px 20px 10px 20px;
+    width: 28%;
+    box-shadow: 0px 0px 10px;
+}
+#Direccion p{
+    padding: 10px 0 0 0 ;
+}
