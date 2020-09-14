@@ -98,8 +98,9 @@ input{
 }
 /* Informacion de la organizacion*/
 #Contenedor{
-    display:block;
-    margin: 6% 0 6% 10%;
+    margin:3% 0 0 0;
+    text-align: center;
+    display: block;
 }
 #Contenedor h3{
     font-size:1.5vw;
@@ -107,7 +108,7 @@ input{
     color:#C70039;
 }
 #Contenedor div{
-    margin-left: 10%;
+    margin: 5% 5% 5% 8%;
 }
 #Bienvenidos{
     background-color: rgba(4, 0, 255, 0.192);
@@ -117,6 +118,8 @@ input{
     box-shadow: 0px 0px 10px;
 }
 #Bienvenidos p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 10px 0 0 0 ;
 }
 #Direccion{
@@ -124,8 +127,10 @@ input{
     display:inline-block;
     padding: 10px 20px 10px 20px;
     width: 28%;
-    box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 8px;
 }
 #Direccion p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 10px 0 0 0 ;
 }
