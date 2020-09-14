@@ -1,6 +1,8 @@
 /*Main*/
 #Main{
     background-color: rgba(4, 0, 255, 0.192);
+    width: 100%;
+    display: block;
 }
 /*Imagen*/
 #ContenedorImagen img{
@@ -30,6 +32,7 @@
 }
 #Informacion ul li{
     padding: 15px 0 15px 0;
+    width: 80%;
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -39,8 +42,11 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 /*Imagenes laterales derecha*/
+#ImagenesLaterales{
+    width:20%;
+}
 .Imagen img{
-    width: 40%;
+    width: 50%;
 }
 .Uno{
     width: 35%;
