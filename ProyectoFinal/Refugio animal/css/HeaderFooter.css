@@ -7,44 +7,31 @@ body {
    margin: 0 10% 0 10%;
 }
 header{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1vw;
     width: 100%;
     background-color: #ff5833;
     display:flex;
     align-items: center;
-    justify-content: flex-start;
-}
-footer{
-    font-family:'Domine', serif;
-    font-size: 1vw;
-    background-color: #ff5833;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    position: relative;
-    padding:0 0 50px 0;
 }
 /*Imagen de la cabecera*/
 #logo{
-    display: block;
-    align-self: auto;
-    width: 20%;
-}
-/*Imagen del pie de pagina*/
-footer img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 20%;
+    align-self: flex-start;
+    width: 25%;
 }
 /*Menu de navegacion*/
+nav{
+    align-self: flex-end;
+
+    width: 100%;
+}
+nav ul{
+    display: flex;
+}
 nav ul li{
-    padding: 1% 0 0 0;
-    display: inline-block;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    font-size:1.9vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding:1.5%;
     list-style:none;
+    flex: 1;
 }
 a:link{
     text-decoration:none;
@@ -52,18 +39,7 @@ a:link{
 a{
     color:#ffffff;
 }
-nav{
-    display: block;
-    width: 70%;
-    text-align: center;
-    align-self:flex-end;
-}
 /*Tamaño de los botones de navegacion*/
-.Botones{
-    width: 16%;
-    height: 3vmax;
-    text-align: center;
-}
 .n1{
     background-color: #C70039;
 }
@@ -77,6 +53,7 @@ nav{
 }
 /*Buscador*/
 #Buscador{
+    width: 15%;
     position: absolute;
     right: 5%;
     transform: translate(-50%, -50%);
@@ -84,7 +61,7 @@ nav{
 #search{
     padding: 8% 5% 5% 8%;
     outline: none;
-    font-size:1vw;
+    font-size:1.5vh;
     color: rgb(0, 0, 0);
     border: 3px solid #581845;
     background:#fff url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/search.png");
@@ -92,22 +69,27 @@ nav{
     background-repeat:no-repeat;
     background-position-y: center;
     background-position-x: 10%;
-    width:80%;
+    width:75%;
     text-align:end;
+}
+
+#main{
+    width: 100%;
 }
 /* Informacion de la organizacion*/
 #Contenedor{
+    width: 100%;
     margin:3% 0 0 0;
     text-align: center;
-    display: block;
+    display: flex;
 }
 #Contenedor h3{
-    font-size:1.5vw;
+    font-size:18px;
     font-family: 'Grandstander', cursive;
     color:#C70039;
 }
 #Contenedor div{
-    margin: 5% 5% 5% 8%;
+    margin: auto;
 }
 #Bienvenidos{
     background-color: rgba(4, 0, 255, 0.192);
@@ -131,19 +113,36 @@ nav{
 #Direccion p{
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: 10px 0 0 0 ;
+    padding: 10px 0 0 15px ;
 }
 .direccion{
     background:url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/ubicacion icon.png");
-    background-size: 5%;
+    background-size: 6%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 0;
+}
+.telefono{
+    background:url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/telefono icon.png");
+    background-size: 6%;
     background-repeat:no-repeat;
     background-position-y: center;
     background-position-x: 1%;
 }
-.telefono{
-    background:url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/telefono icon.png");
-    background-size: 5%;
-    background-repeat:no-repeat;
-    background-position-y: center;
-    background-position-x: 1%;
+footer{
+    font-family:'Domine', serif;
+    font-size: 15px;
+    background-color: #ff5833;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    padding:0 0 50px 0;
+}
+/*Imagen del pie de pagina*/
+footer img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
 }

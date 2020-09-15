@@ -1,40 +1,44 @@
+/*Contenedor Main*/
+#Main{
+    width: 100%;
+}
+/*Contenedor de informacion*/
+#Informacion{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+}
 /*Imagen*/
 #ContenedorImagen img{
-    width: 100%;
+    width:100%;
 }
 /*Titulo y subtitulo*/
 #TituloSubtitulo{
-    display: block;
-    align-self: flex-start;
+    width: 100%;
 }
 #TituloSubtitulo h2{
     color:#C70039;
-    padding: 105px 0 10px 50px;
+    margin: 10px;
     text-align:start;
     font-size: 30px;
     font-family: 'Grandstander', cursive;
 }
 #TituloSubtitulo h3{
-    padding: 0 0 10px 50px;
-    text-align:start;
+    padding:10px;
     font-size:20px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 /*Pequeño slider de la izquierda*/
 #Slider{
-    margin: 50px 0 0 50px;
     padding: 0 0 50px 0;
     overflow:hidden;
-    width:30%;
-    display: block;
+    width:40%
 }
 #Slider figure{
-    position: relative;
     width:500%;
     margin:0;
     left: 0;
     animation: 20s Slider infinite;
-    background-color:red;
 }
 #Slider figure img{
     width: 20%;
@@ -71,15 +75,14 @@
 }
 /*Articulo sobre nuestras metas*/
 article{
-    display: block;
-    width:30%;
-    padding: 0 0 50px 30px;
-    position: absolute;
-    top: 138%;
-    right: 19%;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
 }
 article h3{
-    
+    color:#C70039;
     font-size: 30px;
     font-family: 'Grandstander', cursive;
     padding: 10px 0 10px 0;
@@ -92,7 +95,7 @@ article p{
 }
 article ul li{
     list-style: circle;
-    padding: 0 0 15px 10px;
+    margin: 5%;
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
 }
