@@ -81,7 +81,7 @@ nav{
     right: 5%;
     transform: translate(-50%, -50%);
 }
-input{
+#search{
     padding: 8% 5% 5% 8%;
     outline: none;
     font-size:1vw;

@@ -1,0 +1,30 @@
+/*Contenedor para enviar el mensaje*/
+#EnviarMensaje{
+    padding: 7% 0 5% 5%;
+}
+#EnviarMensaje ol li{
+    margin: 2% 5%  2% 3%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+#EnviarMensaje h1{
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+#EnviarMensaje h3{
+    padding: 10px 0 25px 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    color:#C70039;
+}
+/*Tamaño y estilo de los input*/
+.Mensaje{
+    width: 60%;
+    height: 40px;
+    margin-left: 3%;
+}
+.mensaje{
+    height: 100px;
+}
