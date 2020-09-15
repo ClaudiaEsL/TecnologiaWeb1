@@ -42,21 +42,11 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 /*Imagenes laterales derecha*/
-#ImagenesLaterales{
-    width:20%;
-}
-.Imagen img{
-    width: 50%;
-}
-.Uno{
-    width: 35%;
+#ImagenLateral{
     position: absolute;
-    top: 138%;
-    left:60%;
+    top:150%;
+    right: 0;
 }
-.Dos{
-    width:35%;
-    position: absolute;
-    top: 205%;
-    left:75%;
+#ImagenLateral img{
+    width:80%;
 }
