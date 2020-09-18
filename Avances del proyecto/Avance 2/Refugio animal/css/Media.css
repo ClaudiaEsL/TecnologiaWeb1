@@ -1,6 +1,8 @@
 /*Media Query Para el footer, header, las redes sociales, el mensaje de bienvenida y la ubicacion*/
 @media screen and (max-width:800px){
-    
+    body {
+        margin: 0;
+     }
     .direccion{
         background:url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/ubicacion icon.png");
         background-size: 10%;
@@ -28,10 +30,6 @@
         box-shadow: 0px 0px 8px;
     }
     /*Footer header*/
-    #logo{
-        align-self: flex-start;
-        width: 40%;
-    }
     /*Imagen del pie de pagina*/
     footer img{
         display: block;
@@ -52,20 +50,9 @@
         left: 5px;
         top:35%;
      }
-    /*Body*/
-    body {
-    margin: 0 10% 0 10%;
-    }
-    header{
-        width: 100%;
-        background-color: #ff5833;
-        display:flex;
-        align-items: center;
-    }
     /*Imagen de la cabecera*/
     #logo{
-        align-self: flex-start;
-        width: 25%;
+        width: 30%;
     }
      /*Menu de navegacion*/
     nav{
@@ -86,16 +73,14 @@
     }
     /*Buscador*/
     #Buscador{
-        width: 40%;
-        position: absolute;
-        top: 5%;
-        right: 0;
-        transform: translate(-20%, -50%);
+        width: 50%;
+        position: relative;
+        right:15px;
     }
     #search{
         padding: 8% 5% 5% 8%;
         outline: none;
-        font-size:1.5vh;
+        font-size:15px;
         color: rgb(0, 0, 0);
         border: 2px solid #581845;
         background:#fff url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/search.png");

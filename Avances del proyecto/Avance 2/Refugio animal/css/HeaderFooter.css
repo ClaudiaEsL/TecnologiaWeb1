@@ -7,8 +7,8 @@ body {
    margin: 0 10% 0 10%;
 }
 header{
-    width: 100%;
     background-color: #ff5833;
+    width: 100%;
     display:flex;
     align-items: center;
 }
