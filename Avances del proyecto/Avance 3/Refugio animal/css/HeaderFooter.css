@@ -1,0 +1,238 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(238, 99, 44, 0.459);
+    margin: 0 10% 0 10%;
+}
+header{
+    width: 100%;
+    background-color: white;
+}
+#NavBuscador{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*Imagen de la cabecera*/
+#logo{
+    background-color:  #ff5833;
+    display: block;
+    margin:auto;
+    width: 100%;
+}
+#logo img{
+    display: block;
+    width: 25%;
+    margin:auto;
+}
+/*Menu de navegacion*/
+nav{
+    align-self: flex-end;
+    max-width: 600px;
+    margin: 0;
+    width: 70%;
+
+}
+.Navegacion {
+    list-style: none;
+	text-align: center;
+	padding: 1%;
+}
+.Navegacion li:first-child {
+	display: block;
+}
+.Navegacion li {
+    display: none;
+    font-size:1vmax;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding:3px 0 3px 0;
+    list-style:none;
+    flex: 1;
+}
+.Navegacion a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+    text-decoration: none;
+}
+/*Tamaño de los botones de navegacion*/
+.n1{
+    background-color: #c70038;
+}
+.n2{
+    background-color: #581845;
+}
+/*Hover de los botones de navegacion*/
+.n1:hover{
+    background-color: #c700387c;
+    transition: 0.9s;
+}
+.n2:hover{
+    background-color: #58184583;
+    transition: 0.9s;
+}
+.Navegacion .n1 a:hover{
+    color:  #c70038;
+}
+.Navegacion .n2 a:hover{
+    color:  #581845;
+}
+
+/*Buscador*/
+#Buscador{
+    width: 20%;
+    margin: 5px 1% 2% 9%;
+}
+#search{
+    border-radius: 5px;
+    padding: 8% 5% 5% 8%;
+    outline: none;
+    font-size:1vmax;
+    color: rgb(0, 0, 0);
+    background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+    background-size: 9%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 10%;
+    width:80%;
+    text-align: right;
+}
+
+#Container{
+    width: 100%;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+/* Informacion de la organizacion*/
+#Contenedor{
+    margin:3% 0 0 0;
+    text-align: center;
+    display: flex;
+}
+#Contenedor h3{
+    font-size:18px;
+    font-family: 'Grandstander', cursive;
+    color:#ffffff;
+}
+#Contenedor div{
+    margin: auto;
+}
+#Bienvenidos{
+    display:inline-block;
+    padding: 10px 0 10px 0;
+    width: 28%;
+}
+#Bienvenidos p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px 0 0 0 ;
+}
+#Direccion{
+    display:inline-block;
+    padding: 10px 0 10px 0;
+    width: 28%;
+}
+#Direccion p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px 0 0 15px ;
+}
+.direccion{
+    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion icon.png");
+    background-size: 6%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 0;
+}
+.telefono{
+    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono icon.png");
+    background-size: 6%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 1%;
+}
+footer{
+    font-family:'Domine', serif;
+    font-size: 15px;
+    background-color: #ff5833;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    padding:0 0 50px 0;
+}
+/*Imagen del pie de pagina*/
+footer img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+}
+#DerechosReservados{
+    margin:5%;
+}
+/*Menu responsivo*/
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+    /*Menu de navegacion*/
+    .Navegacion {
+        display: flex;
+    }
+    .Navegacion li:first-child {
+        display: none;
+    }
+    .Navegacion li{
+        display: block;
+		flex: 1 1 100%;
+    }
+    .Navegacion li a {
+        color: rgb(255, 255, 255);
+    }
+}
+
+/*Media Query Para el footer, header, las redes sociales, el mensaje de bienvenida y la ubicacion*/
+@media screen and (max-width:600px){
+    body {
+        margin: 0;
+     }
+    /*Footer header*/
+    /*Imagen del pie de pagina*/
+    footer img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+    nav{
+        width: 100%;
+    }
+    /*Buscador*/
+    #Buscador{
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #search{
+        padding: 8% 5% 5% 8%;
+        outline: none;
+        font-size:1.9vh;
+        color: rgb(0, 0, 0);
+        background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+        background-size: 9%;
+        background-repeat:no-repeat;
+        background-position-y: center;
+        background-position-x: 10%;
+        width:80%;
+        text-align:end;
+    }
+}

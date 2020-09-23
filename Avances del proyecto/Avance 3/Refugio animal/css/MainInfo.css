@@ -1,0 +1,101 @@
+/*Contenedor Main*/
+#Main{
+    width: 100%;
+}
+/*Contenedor de informacion*/
+#Informacion{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+}
+/*Imagen*/
+#ContenedorImagen img{
+    width:100%;
+}
+/*Titulo y subtitulo*/
+#TituloSubtitulo{
+    width: 100%;
+}
+#TituloSubtitulo h2{
+    color:#C70039;
+    margin: 10px;
+    text-align:start;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+}
+#TituloSubtitulo h3{
+    padding:10px;
+    font-size:20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*Pequeño slider de la izquierda*/
+#Slider{
+    padding: 0 0 50px 0;
+    overflow:hidden;
+    width:40%
+}
+#Slider figure{
+    width:500%;
+    margin:0;
+    left: 0;
+    animation: 20s Slider infinite;
+}
+#Slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes Slider{
+    0% {
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left: -100%;
+    }
+     50%{
+        left:-200%;
+     }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+/*Articulo sobre nuestras metas*/
+article{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+}
+article h3{
+    color:#C70039;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+    padding: 10px 0 10px 0;
+}
+article p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+article ul li{
+    list-style: circle;
+    margin: 5%;
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}

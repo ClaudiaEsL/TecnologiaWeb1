@@ -1,0 +1,70 @@
+/*Imagen*/
+#ContenedorImagen img{
+    width: 100%
+}
+/*Infomacion sobre que puede donar*/
+article{
+    padding: 20px 45% 20px 5% ;
+    margin: 1% 1% 1% 1%;
+    background:#fff url("/TecnologiaWeb1/ProyectoFinal/Refugio animal/Imagenes/donar.jpg");
+    background-size: 30%;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: 90%;
+}
+article h1{
+    padding: 10px 0 25px 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 28px;
+}
+article ol li{
+    font-family: 'Grandstander', cursive;
+    font-weight: bold;
+    color:#C70039;
+    font-size: 18px;
+}
+p{
+    padding: 10px 0 5% 5%;
+    margin-top: 20px;
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*Donacion a travez de cuentas*/
+#DonacionCuentas{
+    width: 50%;
+    padding: 20px 0 10px 5% ;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 10px;
+}
+#DonacionCuentas h1{
+    font-weight: bold;
+    padding: 10px 0 25px 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 28px;
+}
+#DonacionCuentas h2{
+    color:#C70039;
+    padding: 10px 0 25px 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+}
+#DonacionCuentas h4{
+    font-weight: bold;
+    padding: 10px 0 25px 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 16px;
+}
+#DonacionCuentas ul li{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    margin: 0 0 0 2%;
+    list-style-type: square;
+    padding: 0 0 50px 0;
+}
+/*Mensaje final*/
+#Mensaje{
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+    font-size: 28px;
+}
