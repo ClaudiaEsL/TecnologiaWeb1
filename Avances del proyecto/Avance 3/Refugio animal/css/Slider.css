@@ -53,3 +53,8 @@
         left:-500%;
     }
 }
+@media screen and (max-width:600px){
+    #Slider{
+        width: 100%;
+    }
+}
