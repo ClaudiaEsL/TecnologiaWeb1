@@ -99,3 +99,41 @@ article ul li{
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
 }
+@media screen and (max-width:600px){
+    #TituloSubtitulo h2{
+        text-align:center;
+        font-size: 25px;
+    }
+    #TituloSubtitulo h3{
+        font-size: 15px;
+        text-align:center;
+    }
+    article h3{
+        text-align:center;
+        font-size: 25px;
+    }
+    article p{
+        font-size:15px;
+        padding: 10px ;
+    }
+    article ul li{
+        font-size:15px;
+        padding: 10px;
+        margin: 0 20px 0 30px;
+    }
+}
+/*Media Query Para la pagina de "Acerca de nosotros"*/
+@media screen and (max-width:800px){
+    #Slider{
+        padding: 0 0 50px 0;
+        overflow:hidden;
+        width:100%
+    }
+    article{
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+}

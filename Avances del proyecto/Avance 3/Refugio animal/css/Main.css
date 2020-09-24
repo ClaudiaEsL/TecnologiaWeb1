@@ -55,3 +55,8 @@ iframe{
     font-size:25px;
     font-family: 'Grandstander', cursive;
 }
+@media screen and (max-width:600px){
+    #Mensaje h3{
+        font-size:18px;
+    }
+}

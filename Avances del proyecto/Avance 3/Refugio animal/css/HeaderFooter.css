@@ -26,7 +26,7 @@ header{
 }
 #logo img{
     display: block;
-    width: 25%;
+    width: 30%;
     margin:auto;
 }
 /*Menu de navegacion*/
@@ -35,7 +35,6 @@ nav{
     max-width: 600px;
     margin: 0;
     width: 70%;
-
 }
 .Navegacion {
     list-style: none;
@@ -47,7 +46,7 @@ nav{
 }
 .Navegacion li {
     display: none;
-    font-size:1vmax;
+    font-size:1.9vh;
     font-family: 'Noto Sans JP', sans-serif;
     padding:3px 0 3px 0;
     list-style:none;
@@ -94,7 +93,7 @@ nav{
     outline: none;
     font-size:1vmax;
     color: rgb(0, 0, 0);
-    background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+    background:#fff url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
     background-size: 9%;
     background-repeat:no-repeat;
     background-position-y: center;
@@ -143,14 +142,14 @@ nav{
     padding: 10px 0 0 15px ;
 }
 .direccion{
-    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion icon.png");
+    background:url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion.png");
     background-size: 6%;
     background-repeat:no-repeat;
     background-position-y: center;
     background-position-x: 0;
 }
 .telefono{
-    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono icon.png");
+    background:url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono.png");
     background-size: 6%;
     background-repeat:no-repeat;
     background-position-y: center;
@@ -192,7 +191,7 @@ footer img{
     }
     .Navegacion li{
         display: block;
-		flex: 1 1 100%;
+        flex: 1 1 100%;
     }
     .Navegacion li a {
         color: rgb(255, 255, 255);
@@ -204,6 +203,9 @@ footer img{
     body {
         margin: 0;
      }
+     #logo img{
+        width: 50%;
+    }
     /*Footer header*/
     /*Imagen del pie de pagina*/
     footer img{
@@ -214,6 +216,9 @@ footer img{
     }
     nav{
         width: 100%;
+    }
+    .Navegacion li {
+        font-size:15px;
     }
     /*Buscador*/
     #Buscador{
@@ -227,7 +232,7 @@ footer img{
         outline: none;
         font-size:1.9vh;
         color: rgb(0, 0, 0);
-        background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+        background:#fff url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
         background-size: 9%;
         background-repeat:no-repeat;
         background-position-y: center;
