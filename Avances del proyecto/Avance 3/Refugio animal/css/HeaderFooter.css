@@ -93,7 +93,7 @@ nav{
     outline: none;
     font-size:1vmax;
     color: rgb(0, 0, 0);
-    background:#fff url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+    background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
     background-size: 9%;
     background-repeat:no-repeat;
     background-position-y: center;
@@ -142,14 +142,14 @@ nav{
     padding: 10px 0 0 15px ;
 }
 .direccion{
-    background:url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion.png");
+    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion.png");
     background-size: 6%;
     background-repeat:no-repeat;
     background-position-y: center;
     background-position-x: 0;
 }
 .telefono{
-    background:url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono.png");
+    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono.png");
     background-size: 6%;
     background-repeat:no-repeat;
     background-position-y: center;
@@ -232,7 +232,7 @@ footer img{
         outline: none;
         font-size:1.9vh;
         color: rgb(0, 0, 0);
-        background:#fff url("Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
+        background:#fff url("/Avances del proyecto/Avance 1/");
         background-size: 9%;
         background-repeat:no-repeat;
         background-position-y: center;

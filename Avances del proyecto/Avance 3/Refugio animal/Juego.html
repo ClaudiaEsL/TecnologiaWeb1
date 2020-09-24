@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Claudia Abigail Escobar Lazarte" />
-    <!--Hojas de estilos-->
+
     <link rel="StyleSheet" href="css/HeaderFooter.css" type="text/css" media="screen" >
-    <link rel="stylesheet" href="css/Media.css" type="text/css" media="screen">
-
-    <link rel="stylesheet" href="css/RedesSociales.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/MainContacto.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/RedesSociales.css">
     <!--Fuentes-->
-    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@100&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">    
-    <title>Contacto - Bienestar Animal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@100&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">    <title>Home - Bienestar Animal</title>
     <link rel="shortcut icon" href="Imagenes/patita.png">
+    <title>Dibuja - Bienestar Animal</title>
 </head>
-
 <body>
     <header>
         <!--Logo de la cabecera-->
@@ -32,6 +27,7 @@
                     <li class="Boton n1"><a href="Adopcion.html">Adopcion</a> </li>
                     <li class="Boton n2"><a href="donaciones.html">Donaciones</a> </li>
                     <li class="Boton n1"><a href="contacto.html">Contacto</a> </li>
+                    <li class="Boton n1"><a href="Juego.html">Juego</a> </li>
                 </ul>
             </nav>
             <!--Buscardor-->
@@ -39,36 +35,27 @@
                 <input id="search" type="text" name="search" placeholder="Ingrese una keyword" autocomplete="off">
             </div>
         </div>
+        <style>
+            #Dibujo{
+                width: 50%;
+                border: 2px solid black;
+                height: 500px;
+            }
+        </style>
     </header>
+    <script>
+        var cielo = function(){
+            fill(1,0,2,0);
+            ellipse(10, 50, 150, 150);
+        }
+    </script>
     <div id="Container">
-        <!--Main-->
-        <div id="EnviarMensaje">
-            <div id="Formulario">
-                <h1>Contaco</h1>
-                <h3>Rellene este formulario para ponerse en contacto con nosotros.</h3>
-                <h3>Envianos una mensaje!</h3>
-                <div> 
-                    <h3>Tu email (requerido): </h3>
-                    <input class="Mensaje email" type="email" placeholder ="Ingrese su correo">
-                </div>
-                <div> 
-                    <h3>Tu nombre (requerido): </h3>
-                    <input class="Mensaje nombre" type="text" placeholder = "Ingrese su nombre" >
-                </div>
-                <div> 
-                    <h3>Asunto: </h3>
-                    <input class="Mensaje subject" type="text" placeholder = "Breve descripcion de mensaje">
-                </div>
-                <div> 
-                    <h3>Tu mensaje: </h3>
-                    <input class="Mensaje mensaje" type="text" placeholder="Escriba el mensaje detalladamente">
-                </div>
-                <div class="Boton enviar">
-                    <button>Enviar</button>
-                </div>
-            </div>
+        <h1>Dibuja a tu mascota</h1>
+        <div id="Dibujo">
+            
         </div>
     </div>
+
 
     <!--Pie de pagina-->
     <footer>
