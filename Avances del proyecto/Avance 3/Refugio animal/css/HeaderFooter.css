@@ -4,7 +4,9 @@
     padding: 0;
 }
 body {
-    background-color: rgba(238, 99, 44, 0.459);
+    background-image: url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/fondo2.png");
+    background-repeat: repeat;
+    background-size: cover;
     margin: 0 10% 0 10%;
 }
 header{
@@ -21,7 +23,8 @@ header{
 #logo{
     background-color:  #ff5833;
     display: block;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     width: 100%;
 }
 #logo img{
@@ -46,7 +49,7 @@ nav{
 }
 .Navegacion li {
     display: none;
-    font-size:1.9vh;
+    font-size:1vmax;
     font-family: 'Noto Sans JP', sans-serif;
     padding:3px 0 3px 0;
     list-style:none;
@@ -202,6 +205,7 @@ footer img{
 @media screen and (max-width:600px){
     body {
         margin: 0;
+        width: 100%;
      }
      #logo img{
         width: 50%;
