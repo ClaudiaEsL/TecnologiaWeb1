@@ -10,12 +10,33 @@
     <h1>CALCULADORA</h1>
     <div class="Contenedor">
         <form action="">
+            <p>Numero 1:</p>
             <input id="Numero1" type="text">
-            <p>+</p>
+            <p>Numero 2:</p>
             <input id="Numero2" type="text">
-            <p>=</p>
-            <input id="resultado" type="text" readonly> <br>
-            <input type="button" class="btn" onclick="sumar()" value="resultado">
+            <p>Resultado:</p>
+            <input id="resultado1" type="text" readonly> <br>
+            <input type="button" class="btn" onclick="sumar()" value="Sumar">
+        </form>
+    </div>
+    <div class="Contenedor">
+        <form action="">
+            <p>Numero 1:</p>
+            <input id="Numero10" type="text">
+            <p>Numero 2:</p>
+            <input id="Numero20" type="text">
+            <p>Resultado:</p>
+            <input id="resultado2" type="text" readonly> <br>
+            <input type="button" class="btn" onclick="mayor()" value="Mayor">
+        </form>
+    </div>
+    <div class="Contenedor">
+        <form action="">
+            <p>Numero 1:</p>
+            <input id="Numero30" type="text">
+            <p>Resultado: </p>
+            <input id="resultado3" type="text" readonly> <br>
+            <input type="button" class="btn" onclick="factorial()" value="Factorial">
         </form>
     </div>
     <script src="suma.js"></script>

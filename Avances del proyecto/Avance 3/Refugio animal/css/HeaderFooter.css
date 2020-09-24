@@ -23,26 +23,24 @@ header{
 #logo{
     background-color:  #ff5833;
     display: block;
-    margin-left:auto;
-    margin-right: auto;
     width: 100%;
 }
 #logo img{
     display: block;
-    width: 30%;
-    margin:auto;
+    width: 28%;
 }
 /*Menu de navegacion*/
 nav{
     align-self: flex-end;
-    max-width: 600px;
-    margin: 0;
-    width: 70%;
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 .Navegacion {
     list-style: none;
 	text-align: center;
-	padding: 1%;
+    padding: 1%;
 }
 .Navegacion li:first-child {
 	display: block;
@@ -56,7 +54,7 @@ nav{
     flex: 1;
 }
 .Navegacion a {
-	display: block;
+	display: inline-block;
 	color: #fff;
 	padding: 0.75rem;
 	text-align: center;
@@ -64,10 +62,10 @@ nav{
 }
 /*Tamaño de los botones de navegacion*/
 .n1{
-    background-color: #c70038;
+    background-color: #060014;
 }
 .n2{
-    background-color: #581845;
+    background-color: #c2b009;
 }
 /*Hover de los botones de navegacion*/
 .n1:hover{
@@ -84,32 +82,10 @@ nav{
 .Navegacion .n2 a:hover{
     color:  #581845;
 }
-
-/*Buscador*/
-#Buscador{
-    width: 20%;
-    margin: 5px 1% 2% 9%;
-}
-#search{
-    border-radius: 5px;
-    padding: 8% 5% 5% 8%;
-    outline: none;
-    font-size:1vmax;
-    color: rgb(0, 0, 0);
-    background:#fff url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/search.png");
-    background-size: 9%;
-    background-repeat:no-repeat;
-    background-position-y: center;
-    background-position-x: 10%;
-    width:80%;
-    text-align: right;
-}
-
 #Container{
     width: 100%;
     display: block;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px;
 }
 /* Informacion de la organizacion*/
 #Contenedor{
