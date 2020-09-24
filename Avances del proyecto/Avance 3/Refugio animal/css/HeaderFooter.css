@@ -109,6 +109,7 @@ nav{
     width: 100%;
     display: block;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px;
 }
 /* Informacion de la organizacion*/
 #Contenedor{
