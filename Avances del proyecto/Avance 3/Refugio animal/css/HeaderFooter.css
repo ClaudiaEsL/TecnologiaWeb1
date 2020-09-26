@@ -13,6 +13,10 @@ header{
     width: 100%;
     background-color: white;
 }
+/*Iconos del menu*/
+i{
+    margin: 5px;
+}
 /*Imagen de la cabecera*/
 #logo{
     background-color:  #ff5833;
@@ -42,7 +46,7 @@ nav{
 }
 .Navegacion li {
     display: none;
-    font-size:1vmax;
+    font-size:1.3vmax;
     font-family: 'Noto Sans JP', sans-serif;
     padding:3px 0 3px 0;
     list-style:none;
@@ -132,20 +136,6 @@ nav{
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
     padding: 10px 0 0 15px ;
-}
-.direccion{
-    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/ubicacion.png");
-    background-size: 6%;
-    background-repeat:no-repeat;
-    background-position-y: center;
-    background-position-x: 0;
-}
-.telefono{
-    background:url("/Avances del proyecto/Avance 3/Refugio animal/Imagenes/telefono.png");
-    background-size: 6%;
-    background-repeat:no-repeat;
-    background-position-y: center;
-    background-position-x: 1%;
 }
 footer{
     font-family:'Domine', serif;
