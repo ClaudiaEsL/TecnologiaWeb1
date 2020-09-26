@@ -13,12 +13,6 @@ header{
     width: 100%;
     background-color: white;
 }
-#NavBuscador{
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 /*Imagen de la cabecera*/
 #logo{
     background-color:  #ff5833;
@@ -27,7 +21,7 @@ header{
 }
 #logo img{
     display: block;
-    width: 28%;
+    width: 25%;
 }
 /*Menu de navegacion*/
 nav{
@@ -38,6 +32,7 @@ nav{
     margin: auto;
 }
 .Navegacion {
+    display: block;
     list-style: none;
 	text-align: center;
     padding: 1%;
@@ -54,22 +49,25 @@ nav{
     flex: 1;
 }
 .Navegacion a {
+    color: white;
 	display: inline-block;
-	color: #fff;
 	padding: 0.75rem;
 	text-align: center;
     text-decoration: none;
 }
+.Navegacion li a{
+    display: block;
+}
 /*Tamaño de los botones de navegacion*/
 .n1{
-    background-color: #060014;
+    background-color: #74bcce;
 }
-.n2{
-    background-color: #c2b009;
+.menu{
+    background-color:#C70039;
 }
 /*Hover de los botones de navegacion*/
 .n1:hover{
-    background-color: #c700387c;
+    background-color: #546cbd7c;
     transition: 0.9s;
 }
 .n2:hover{
@@ -77,15 +75,29 @@ nav{
     transition: 0.9s;
 }
 .Navegacion .n1 a:hover{
-    color:  #c70038;
+    color:  #000625;
 }
 .Navegacion .n2 a:hover{
-    color:  #581845;
+    color:  #470032;
+}
+/*Opciones desplegables*/
+.Navegacion>li>ul{
+    display: none;
+}
+.Navegacion li:hover ul{
+    display:block;
+}
+.desplegable{
+    background-color: rgba(255, 255, 255, 0.575);
+}
+.desplegable a{
+    color: rgb(0, 0, 0);
 }
 #Container{
     width: 100%;
     display: block;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px;
 }
 /* Informacion de la organizacion*/
 #Contenedor{
@@ -173,19 +185,18 @@ footer img{
         display: block;
         flex: 1 1 100%;
     }
-    .Navegacion li a {
-        color: rgb(255, 255, 255);
-    }
 }
 
 /*Media Query Para el footer, header, las redes sociales, el mensaje de bienvenida y la ubicacion*/
 @media screen and (max-width:600px){
     body {
         margin: 0;
+        padding: 0;
         width: 100%;
      }
      #logo img{
         width: 50%;
+        margin: auto;
     }
     /*Footer header*/
     /*Imagen del pie de pagina*/
@@ -220,5 +231,8 @@ footer img{
         background-position-x: 10%;
         width:80%;
         text-align:end;
+    }
+    .Navegacion li ul{
+        display: block;
     }
 }
