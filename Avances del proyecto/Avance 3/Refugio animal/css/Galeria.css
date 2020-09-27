@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    padding: 5% 0 3% 0;
+    font-family: 'Grandstander', cursive;
+}
+.contenedor{
+    width: 100%;
+}
+.contenedor img{
+    width:100%;
+}
+.persona-columna{
+    margin:5px
+}
+.personas .contenedor{
+    display: grid;
+}
+@media screen and (min-width:420px){
+    .personas .contenedor{
+        grid-template-columns: repeat(1, 82%);
+    }
+    h1{
+        font-size: 25px;
+    }
+    .contenedor img{
+        padding: 1% 0 0 11%;
+    }
+}
+@media screen and (min-width:728px){
+    .personas .contenedor{
+        grid-template-columns: repeat(2, 45%);
+    }
+    .contenedor img{
+        padding: 1% 0 0 10%;
+    }
+}
+@media screen and (min-width:1024px){
+    .personas .contenedor{
+        grid-template-columns: repeat(3, 28%);
+    }
+    .contenedor img{
+        -webkit-transition:all .5s ease; /* Safari y Chrome */
+        -moz-transition:all .5s ease; /* Firefox */
+    }
+    .contenedor img:hover  {
+        -webkit-transform:scale(1.2);
+        -moz-transform:scale(1.2);
+        transform:scale(1.2);
+    }
+    .contenedor img{
+        padding: 1% 0 0 30%;
+    }
+}

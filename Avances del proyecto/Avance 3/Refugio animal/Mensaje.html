@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Claudia Abigail Escobar Lazarte" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Hojas de estilos-->
+    <link rel="StyleSheet" href="css/HeaderFooter.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="css/RedesSociales.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/MensajeEnviado.css" type="text/css" media="screen">
+    <!--Link de iconos-->
+    <script src="http://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@100&family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">    
+    <title>Mensaje - Bienestar Animal</title>
+    <link rel="shortcut icon" href="Imagenes/patita.png">
+
+    <!---->
+</head>
+
+<body>
+    <header>
+        <!--Logo de la cabecera-->
+        <div id="logo">
+            <img src="Imagenes/Logotipo.png" alt="">
+        </div>
+        <div id="NavBuscador">
+            <!--Menu de navegacion-->
+            <nav>
+                <ul class="Navegacion">
+                    <li class="Boton menu"><a href="#" onclick="MenuDesplegable()"><i class="fas fa-bars"></i> Menu</a></li>
+                    <li class="Boton n1"><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+                    <li class="Boton n1"><a href="Informacion.html">SOBRE NOSOTROS</a> </li>
+                    <li class="Boton n1 adopcion"><a href="Adopcion.html">ADOPCION<i class="fas fa-chevron-down"></i></a> 
+                        <ul>
+                            <br>
+                            <li class="Boton n1 desplegable"><a href="Historias.html">CONOCE SU HISTORIA</a></li>
+                            <li class="Boton n1 desplegable"><a href="Adoptados.html">ADOPTADOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="Boton n1"><a href="donaciones.html">DONACIONES</a> </li>
+                    <li class="Boton n1"><a href="contacto.html"><i class="fas fa-envelope"></i> CONTACTO</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="Container">
+        <div class="Mensaje Enviado">
+            <div class="mensaje">
+                <div>
+                    <h1>Mensaje Enviado</h1>
+                </div>
+                <div>
+                    <h2>Gracias por nuestra pagina!.</h2>
+                </div>
+            </div>
+            <div class="Imagen">
+                <img src="Imagenes/mensaje.png" alt="">
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!--Pie de pagina-->
+   <footer>
+       <!--Logo-->
+       <img src="Imagenes/Logotipo.png" alt="">
+       <!--Informacion de la organizacion-->
+       <div id="Contenedor">
+           <div id="Bienvenidos">
+               <h3>Bienvenidos</h3>
+               <p>Le damos la bienvenida a nuestra organización. <br>
+                   Explora nuestro sitio web y conoce nuestro trabajo</p>
+           </div>
+           <div id="Direccion">
+               <h3>Direccion</h3>
+               <p class="direccion">Av. Beijing esq. Dorbigni acera sureste
+                   Cochabamba.</p>
+               <p class="telefono">Telefono: 2308080 -77229500</p>
+           </div>
+       </div>
+       <!--Redes sociales-->
+       <div id="RedesSociales">
+           <ul>
+               <li class="Redes Facebook"><img src="Imagenes/045-facebook.png" alt="">Bienestar Animal CBBA</li>
+               <li class="Redes Instagram"><img src="Imagenes/034-instagram.png" alt=""> @Bienestar_Animal</li>
+               <li class="Redes Youtube"><img src="Imagenes/002-youtube.png" alt="">Bienestar Animal Play</li>
+           </ul>
+       </div>
+       <div id="DerechosReservados">Bienestar Animal Bolivia © 2020 | All Rights Reserved</div>
+       <div>
+           <p>
+               <script src="JS/ObtenerFechaHora.js"></script>
+           </p>
+       </div>
+   </footer>
+
+<!--JS-->
+<script src="JS/Menu.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="JS/BotonArriba.js"></script>
+</body>
+</html>

@@ -41,18 +41,20 @@
     text-align: start;
 }
 /*Boton enviar*/
-button{
+.button{
     color: white;
     padding: 10px 30px 10px 30px;
     border: none;
     background: rgb(240, 70, 3);
     letter-spacing: .09em;
     border-radius: 2px;
-    display: block;
-    margin: auto;
+    display: inline-block;
     cursor: pointer;
 }
-button:hover{
+.enviar{
+    text-align: center;
+}
+.button:hover{
     background: rgba(240, 70, 3, 0.219);
     color:rgb(240, 70, 3);
 }
