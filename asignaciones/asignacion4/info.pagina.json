@@ -1,0 +1,37 @@
+{
+    "squadName" : "Equipo de Super Heroes",
+    "homeTown" : "Metro City",
+    "formed" : 2020,
+    "secretBase" : "Super tower",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "Hombre araña",
+        "age" : 19,
+        "secretIdentity" : "‎Peter Benjamin Parker",
+        "powers" : [
+          "Fuerza sobrehumana",
+          "Reflejos / reacciones",
+          "Precognitiva capacidad de sentido arácnido"
+        ]
+      },
+      {
+        "name" : "Thor",
+        "age" : 1.500,
+        "secretIdentity" : "Thor Odinson",
+        "powers" : [
+          "Fuerza sobrehumana",
+          "Manipulación del trueno",
+          "Durabilidad"
+        ]
+      },
+      {
+        "name" : "Kick-Ass",
+        "age" :16,
+        "secretIdentity" : "Dave Lizewski",
+        "powers" : [
+          "Un heroe sin superpoderes"
+        ]
+      }
+    ]
+  }

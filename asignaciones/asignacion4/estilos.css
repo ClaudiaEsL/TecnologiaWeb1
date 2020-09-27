@@ -1,0 +1,60 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgba(255, 241, 38, 0.692) 0%, rgb(255, 255, 255) 100% );
+  }
+  
+  h1 {
+    font-family: 'Pacifico';
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.911);
+    text-shadow: black 1px 1px 2px;
+  }
+  h2{
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  /* header styles */
+  header{
+      background-color: rgba(0, 0, 0, 0.637);
+      padding: 20px;
+  }
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+/* section styles */
+section{
+      display: flex;
+      flex-flow: row wrap;
+}
+section article {
+    display: inline-block;
+    height: 400px;
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgba(36, 42, 129, 0.459);
+}
+section p {
+    margin: 5px;
+}
+section ul {
+  margin-top: 0;
+}
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 20%;
+    text-align: center;
+}

@@ -11,6 +11,7 @@ header{
     width: 100%;
     background-color: white;
 }
+
 /*Iconos del menu*/
 i{
     margin: 5px;
@@ -223,4 +224,8 @@ footer img{
     .Navegacion li ul{
         display: block;
     }
+}
+/*Cambiamos el color del boton dependiendo de la pagina en la que se encuentra*/
+.activo{
+    background-color: #ff5833d3;
 }
