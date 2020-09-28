@@ -61,10 +61,10 @@ nav{
 }
 /*Tamaño de los botones de navegacion*/
 .n1{
-    background-color: #0091b6;
+    background-color: #13677c;
 }
 .menu{
-    background-color:#0091b6;
+    background-color:#005b72;
 }
 /*Hover de los botones de navegacion*/
 .n1:hover{
@@ -76,10 +76,7 @@ nav{
     transition: 0.9s;
 }
 .Navegacion .n1 a:hover{
-    color:  #000625;
-}
-.Navegacion .n2 a:hover{
-    color:  #470032;
+    color:  #000000;
 }
 
 /*Menu desplegables*/
@@ -95,16 +92,18 @@ nav{
 /*Hover del menu*/
 .Navegacion li:hover > ul {
     display:block;
+    width:100%;
 }
 .Navegacion li ul li:hover {
-    background-color: #9aa3c0;
+    background-color: #aabeff;
 }
 .desplegable a{
     padding:10px 15px;
     color: black;
+    font-weight: bold;
 }
 .desplegable{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 #Container{
     width: 100%;
@@ -226,7 +225,7 @@ footer img{
 }
 /*Cambiamos el color del boton dependiendo de la pagina en la que se encuentra*/
 .activo{
-    background-color: #797979d3;
+    background-color: #ac3131;
     
 }
 .activo a{
