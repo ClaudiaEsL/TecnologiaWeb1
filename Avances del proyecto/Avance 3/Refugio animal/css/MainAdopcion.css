@@ -1,5 +1,5 @@
 /*Main*/
-#main{
+Main{
     width: 100%;
     display: flex;
     flex-flow: wrap row;
@@ -71,8 +71,8 @@
 }
 @media screen and (max-width:800px){
     #Informacion {
-        width: 100%;
-        padding: 10%;
+        width: 80%;
+        padding: 9%;
     }
     #Informacion h1{
         font-size: 25px;
@@ -82,11 +82,11 @@
         font-size: 18px;
         text-align: center;
     }
-    #Informacion h3{
+    #Informacion h3, #Informacion2 h3{
         font-size: 18px;
         text-align: center;
     }
-    #Informacion ul li{
+    #Informacion ul li, #Informacion2 ul li{
         padding: 15px 0 15px 0;
         width: 100%;
         font-size:15px;
@@ -94,7 +94,8 @@
     #ImagenLateral{
         width: 100%;
     }
-    #Informacion2 > div{
-        padding: 2% ;
+    #Informacion2{
+        width: 80%;
+        padding: 2%;
     }
 }
