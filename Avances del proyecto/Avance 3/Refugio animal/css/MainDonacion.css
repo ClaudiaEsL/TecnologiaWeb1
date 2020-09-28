@@ -1,6 +1,8 @@
 /*Imagen*/
 #ContenedorImagen img{
-    width: 100%
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 /*Infomacion sobre que puede donar*/
 article{

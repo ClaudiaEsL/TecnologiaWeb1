@@ -1,20 +1,24 @@
 /*Contenedor Main*/
-#Main{
-    width: 100%;
+#ContenedorImagen img{
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 /*Contenedor de informacion*/
 #Informacion{
     display: flex;
     width: 100%;
     flex-flow: wrap row;
+    justify-content: space-between;
 }
-/*Imagen*/
-#ContenedorImagen img{
-    width:100%;
+article h3{
+    text-align: center;
+    padding:10px;
 }
 /*Titulo y subtitulo*/
 #TituloSubtitulo{
     width: 100%;
+    margin: 2% 0 2% 5%;
 }
 #TituloSubtitulo h2{
     color:#C70039;
@@ -30,11 +34,12 @@
 }
 /*Pequeño slider de la izquierda*/
 #Slider{
-    padding: 0 0 50px 0;
+    margin: 0 0 5% 5%;
     overflow:hidden;
-    width:40%
+    width:30%
 }
 #Slider figure{
+    position: relative;
     width:500%;
     margin:0;
     left: 0;
@@ -42,7 +47,7 @@
 }
 #Slider figure img{
     width: 20%;
-    float: left;
+    float: right;
 }
 @keyframes Slider{
     0% {
@@ -75,8 +80,8 @@
 }
 /*Articulo sobre nuestras metas*/
 article{
-    padding: 10px;
-    width: 50%;
+    padding: 1%;
+    width: 40%;
     margin: auto;
     display: flex;
     flex-flow: wrap row;

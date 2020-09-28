@@ -1,11 +1,11 @@
 /*Contenedor para enviar el mensaje*/
-#EnviarMensaje{
+form{
     padding: 5% 5% 5% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-#EnviarMensaje{
+form{
     width: 100%;
 }
 #Formulario{
@@ -19,12 +19,12 @@
 #Formulario div{
     margin: 15px;
 }
-#EnviarMensaje h1{
+form h1{
     font-family: 'Grandstander', cursive;
     font-size: 30px;
     font-weight: bold;
 }
-#EnviarMensaje h3{
+form h3{
     margin: 2% 5%  2% 3%;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
@@ -66,7 +66,7 @@
         margin-bottom: 3%;
         box-shadow: 0px 0px 5px;
     }
-    #EnviarMensaje h1{
+    form h1{
         font-size: 25px;
     }
     .Mensaje{
@@ -76,10 +76,10 @@
     .mensaje{
         height: 100px;
     }
-    #EnviarMensaje h3{
+    form h3{
         margin: 0;
     }
-    #EnviarMensaje{
+    form{
         padding: 0%;
     }
 }

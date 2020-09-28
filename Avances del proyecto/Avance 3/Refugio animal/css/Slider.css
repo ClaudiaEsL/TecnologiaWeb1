@@ -10,7 +10,7 @@
     margin:0;
     left: 0;
     animation: 50s Slider infinite;
-    }
+}
 #Slider figure img{
     width: 20%;
     float: left;
@@ -28,9 +28,9 @@
     45%{
         left: -100%;
     }
-    50%{
+     50%{
         left:-200%;
-    }
+     }
     70%{
         left: -200%;
     }
@@ -42,15 +42,6 @@
     }
     100% {
         left: -400%;
-    }
-    120% {
-        left: -400%;
-    }
-    125%{
-        left:-500%;
-    }
-    145%{
-        left:-500%;
     }
 }
 @media screen and (max-width:600px){
