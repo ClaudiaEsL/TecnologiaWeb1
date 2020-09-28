@@ -119,21 +119,21 @@ nav{
     display: flex;
 }
 #Contenedor h3{
-    font-size:18px;
-    font-family: 'Grandstander', cursive;
     color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    letter-spacing: 2px;
+    text-shadow: #000000 1px 1px;
 }
 #Contenedor div{
     margin: auto;
 }
 
 footer{
-    font-family:'Domine', serif;
-    font-size: 15px;
     background-color: #ff5833;
     width: 100%;
     bottom: 0;
-    text-align: center;
     position: relative;
     padding:0 0 50px 0;
 }
@@ -149,13 +149,6 @@ footer img{
     display:inline-block;
     padding: 10px 0 10px 0;
     width: 80%;
-}
-#Direccion h3{
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Domine', serif;
-    letter-spacing: 2px;
-    text-shadow: #000000 1px 1px;
 }
 #Direccion p{
     font-size:15px;
@@ -224,10 +217,6 @@ footer img{
         margin-right: auto;
         margin-left: auto;
         width: 50%;
-    }
-    i{
-        margin: 5px;
-        font-size: 0.7rem;
     }
 }
 /*Cambiamos el color del boton dependiendo de la pagina en la que se encuentra*/
