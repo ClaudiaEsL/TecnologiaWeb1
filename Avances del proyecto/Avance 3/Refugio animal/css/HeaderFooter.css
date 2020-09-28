@@ -11,12 +11,6 @@ header{
     width: 100%;
     background-color: white;
 }
-
-/*Iconos del menu*/
-i{
-    margin: 5px;
-    font-size: 0.5rem;
-}
 /*Imagen de la cabecera*/
 #logo{
     background-color:  #ff5833;
