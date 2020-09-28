@@ -4,6 +4,13 @@
     display: block;
     margin: auto;
 }
+.Pagina{
+    color:#C70039;
+    margin: 5%;
+    text-align:start;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+}
 /*Infomacion sobre que puede donar*/
 article{
     display: flex;
@@ -23,15 +30,15 @@ article{
     width: 80%;
 }
 h1{
-    padding-left: 5%;
+    padding-left: 3%;
     margin: 20px;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Domine', serif;
     font-weight: bold;
-    color:#C70039;
-    font-size: 28px;
+    color:#ff5833;
+    font-size: 23px;
 }
 #Contenido .punto h2{
-    padding: 10px;
+    padding: 1%;
     font-family: 'Grandstander', cursive;
     font-size: 20px;
 }

@@ -5,7 +5,7 @@
 }
 body {
     background: linear-gradient(135deg, rgba(255, 127, 53, 0.753) 0%, rgb(255, 255, 255) 100% );
-    margin: 0 10% 0 10%;
+    margin: 0 8% 0 8%;
 }
 header{
     width: 100%;
@@ -15,6 +15,7 @@ header{
 /*Iconos del menu*/
 i{
     margin: 5px;
+    font-size: 0.5rem;
 }
 /*Imagen de la cabecera*/
 #logo{
@@ -35,15 +36,17 @@ nav{
     margin: auto;
 }
 .Navegacion {
-    display: block;
+    display: inline-block;
     list-style: none;
 	text-align: center;
     padding: 1%;
 }
 .Navegacion li:first-child {
-	display: block;
+    display: block;
 }
 .Navegacion li {
+    position:relative;
+    float:left;
     display: none;
     font-size:1.0vmax;
     font-family: 'Noto Sans JP', sans-serif;
@@ -53,10 +56,11 @@ nav{
 }
 .Navegacion a {
     color: white;
-	display: inline-block;
+	display: block;
 	padding: 0.75rem;
 	text-align: center;
     text-decoration: none;
+    letter-spacing:1px;
 }
 .Navegacion li a{
     display: block;
@@ -66,7 +70,7 @@ nav{
     background-color: #0091b6;
 }
 .menu{
-    background-color:#C70039;
+    background-color:#0091b6;
 }
 /*Hover de los botones de navegacion*/
 .n1:hover{
@@ -83,24 +87,37 @@ nav{
 .Navegacion .n2 a:hover{
     color:  #470032;
 }
-/*Opciones desplegables*/
-.Navegacion>li>ul{
-    display: none;
+
+/*Menu desplegables*/
+.Navegacion li ul {
+    display:none;
+    position:absolute;
+    top:100%;
 }
-.Navegacion li:hover ul{
+/*Items del menu*/
+.Navegacion li ul li{
+    float:none;
+}
+/*Hover del menu*/
+.Navegacion li:hover > ul {
     display:block;
 }
-.desplegable{
-    background-color: rgb(255, 255, 255);
+.Navegacion li ul li:hover {
+    background-color: #9aa3c0;
 }
 .desplegable a{
-    color: rgb(0, 0, 0);
+    padding:10px 15px;
+    color: black;
+}
+.desplegable{
+    background-color: white;
 }
 #Container{
     width: 100%;
     display: block;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px;
+    padding-top: 3%;
 }
 /* Informacion de la organizacion*/
 #Contenedor{
@@ -116,26 +133,7 @@ nav{
 #Contenedor div{
     margin: auto;
 }
-#Bienvenidos{
-    display:inline-block;
-    padding: 10px 0 10px 0;
-    width: 28%;
-}
-#Bienvenidos p{
-    font-size:15px;
-    font-family: 'Noto Sans JP', sans-serif;
-    padding: 10px 0 0 0 ;
-}
-#Direccion{
-    display:inline-block;
-    padding: 10px 0 10px 0;
-    width: 28%;
-}
-#Direccion p{
-    font-size:15px;
-    font-family: 'Noto Sans JP', sans-serif;
-    padding: 10px 0 0 15px ;
-}
+
 footer{
     font-family:'Domine', serif;
     font-size: 15px;
@@ -153,6 +151,17 @@ footer img{
     margin-left: auto;
     width: 20%;
 }
+/*Dato de direccion*/
+#Direccion{
+    display:inline-block;
+    padding: 10px 0 10px 0;
+    width: 80%;
+}
+#Direccion p{
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px 0 0 15px ;
+}
 #DerechosReservados{
     margin:5%;
 }
@@ -162,7 +171,7 @@ footer img{
 }
 
 /* Media Query for medium + screens */
-@media only screen and (min-width: 50.5em) {
+@media only screen and (min-width: 55.5em) {
     /*Menu de navegacion*/
     .Navegacion {
         display: flex;
@@ -176,7 +185,28 @@ footer img{
     }
 }
 
-/*Media Query Para el footer, header, las redes sociales, el mensaje de bienvenida y la ubicacion*/
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:814px){
+    .Navegacion{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .Navegacion li ul{
+        display: block;
+    }
+    .Navegacion li {
+        position: static;;
+        float:none;
+        font-size:15px;
+    }
+    .Navegacion li ul{
+        position: static;;
+        float:none;
+        font-size:15px;
+    }
+}
+/*Media Query Para una vista movil*/
 @media screen and (max-width:600px){
     body {
         margin: 0;
@@ -195,37 +225,16 @@ footer img{
         margin-left: auto;
         width: 50%;
     }
-    nav{
-        width: 100%;
-    }
-    .Navegacion li {
-        font-size:15px;
-    }
-    /*Buscador*/
-    #Buscador{
-        width: 50%;
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-    #search{
-        padding: 8% 5% 5% 8%;
-        outline: none;
-        font-size:1.9vh;
-        color: rgb(0, 0, 0);
-        background:#fff url("/Avances del proyecto/Avance 1/");
-        background-size: 9%;
-        background-repeat:no-repeat;
-        background-position-y: center;
-        background-position-x: 10%;
-        width:80%;
-        text-align:end;
-    }
-    .Navegacion li ul{
-        display: block;
+    i{
+        margin: 5px;
+        font-size: 0.7rem;
     }
 }
 /*Cambiamos el color del boton dependiendo de la pagina en la que se encuentra*/
 .activo{
-    background-color: #ff5833d3;
+    background-color: #797979d3;
+    
+}
+.activo a{
+    text-shadow:0 0 5px rgb(255, 255, 255);
 }

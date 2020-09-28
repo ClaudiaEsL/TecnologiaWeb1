@@ -36,7 +36,7 @@ article h3{
 #Slider{
     margin: 0 0 5% 5%;
     overflow:hidden;
-    width:30%
+    width:40%;
 }
 #Slider figure{
     position: relative;
@@ -81,27 +81,27 @@ article h3{
 /*Articulo sobre nuestras metas*/
 article{
     padding: 1%;
-    width: 40%;
+    width: 50%;
     margin: auto;
     display: flex;
     flex-flow: wrap row;
 }
 article h3{
-    color:#C70039;
-    font-size: 30px;
-    font-family: 'Grandstander', cursive;
-    padding: 10px 0 10px 0;
+    color:#da003e;
+    font-size: 25px;
+    font-family: 'Domine', serif;
+    padding: 1% 0 1% 0;
 }
 article p{
-    font-size:15px;
+    font-size:17px;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: 0 20px 0 20px;
+    padding: 5% 1% 5% 1%;
     text-align: center;
 }
 article ul li{
     list-style: circle;
     margin: 5%;
-    font-size:15px;
+    font-size:17px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 @media screen and (max-width:600px){

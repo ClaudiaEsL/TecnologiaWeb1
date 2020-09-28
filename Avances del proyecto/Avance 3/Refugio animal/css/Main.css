@@ -2,7 +2,20 @@
 #main{
     display: block;
 }
-
+/*Mensaje de bienevenida*/
+#Bienvenida{
+    text-align: center;
+}
+#Bienvenida h3{
+    padding: 3%;
+    font-size: 3vw;
+    font-family: 'Grandstander';
+}
+#Bienvenida p{
+    padding-bottom: 5%;
+    font-size: 1.4vw;
+    font-family: 'Domine', serif;
+}
 #Valores, #Videos{
     margin:3% 0 0 0;
     text-align: center;
@@ -52,11 +65,21 @@ iframe{
 #Mensaje h3{
     margin: 5% 0 0 0;
     text-align:center;
-    font-size:25px;
-    font-family: 'Grandstander', cursive;
+    font-size:20px;
+    font-family: 'Domine', serif;
 }
 @media screen and (max-width:600px){
     #Mensaje h3{
-        font-size:18px;
+        font-size:14px;
+        padding: 3%;
+    }
+    /*Mensaje de bienevenida*/
+    #Bienvenida h3{
+        font-size: 24px;
+    }
+    #Bienvenida p{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 14px;
     }
 }
