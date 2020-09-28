@@ -95,7 +95,7 @@ h1{
 #Mensaje{
     text-align: center;
     font-family: 'Grandstander', cursive;
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 5%;
 }
 @media screen and (max-width:800px){

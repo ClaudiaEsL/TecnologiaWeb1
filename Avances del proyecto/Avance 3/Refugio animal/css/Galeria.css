@@ -1,7 +1,15 @@
-h1{
-    text-align: center;
-    padding: 5% 0 3% 0;
+.Pagina{
+    color:#C70039;
+    margin: 5% 0 1% 5%;
+    text-align:start;
+    font-size: 30px;
     font-family: 'Grandstander', cursive;
+}
+h3{
+    margin: 0 0 1% 5%;
+    padding:10px;
+    font-size:20px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .contenedor{
     width: 100%;
@@ -43,9 +51,7 @@ h1{
         -moz-transition:all .5s ease; /* Firefox */
     }
     .contenedor img:hover  {
-        -webkit-transform:scale(1.2);
-        -moz-transform:scale(1.2);
-        transform:scale(1.2);
+        transform:scale(1.1);
     }
     .contenedor img{
         padding: 1% 0 0 30%;
