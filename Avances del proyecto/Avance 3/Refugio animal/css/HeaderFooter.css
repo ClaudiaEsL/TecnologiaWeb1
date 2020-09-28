@@ -150,6 +150,13 @@ footer img{
     padding: 10px 0 10px 0;
     width: 80%;
 }
+#Direccion h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    letter-spacing: 2px;
+    text-shadow: #000000 1px 1px;
+}
 #Direccion p{
     font-size:15px;
     font-family: 'Noto Sans JP', sans-serif;
