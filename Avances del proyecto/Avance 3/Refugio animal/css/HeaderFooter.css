@@ -83,7 +83,6 @@ nav{
 .Navegacion li ul {
     display:none;
     position:absolute;
-    top:100%;
 }
 /*Items del menu*/
 .Navegacion li ul li{
