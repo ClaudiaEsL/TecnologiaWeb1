@@ -18,7 +18,7 @@
 }
 #Valores, #Videos{
     margin:3% 0 0 0;
-    text-align: center;
+    /*text-align: center;*/
     display:block;
 }
 #Valores ol li{
