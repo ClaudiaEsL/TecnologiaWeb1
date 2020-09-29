@@ -4,8 +4,8 @@
     padding: 0;
 }
 body {
-    background: linear-gradient(135deg, rgba(255, 127, 53, 0.753) 0%, rgb(255, 255, 255) 100% );
-    margin: 0 8% 0 8%;
+    background: linear-gradient(150deg, rgba(0, 0, 0, 0.877) 0%, rgba(127, 176, 223, 0.877) 100% );
+    margin: 0 10% 0 10%;
 }
 header{
     width: 100%;
@@ -19,7 +19,7 @@ header{
 }
 #logo img{
     display: block;
-    width: 25%;
+    width: 20%;
 }
 /*Menu de navegacion*/
 nav{
