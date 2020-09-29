@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 29/09/2020 23:23
+  	Creation date: 29/09/2020 23:40
   	*/
 
 @font-face {
@@ -31,7 +31,7 @@ margin-left: 20px;
 }
 
 .flaticon-simbolo-de-menu-de-tres-lineas-paralelas:before { content: "\f100"; }
-.flaticon-menu:before { content: "\f101"; }
-.flaticon-email:before { content: "\f102"; }
-.flaticon-llamada-telefonica:before { content: "\f103"; }
-.flaticon-marcador-de-posicion:before { content: "\f104"; }
+.flaticon-email:before { content: "\f101"; }
+.flaticon-llamada-telefonica:before { content: "\f102"; }
+.flaticon-marcador-de-posicion:before { content: "\f103"; }
+.flaticon-flecha-hacia-abajo-para-navegar:before { content: "\f104"; }
