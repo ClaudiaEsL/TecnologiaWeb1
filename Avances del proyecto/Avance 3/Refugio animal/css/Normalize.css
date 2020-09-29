@@ -173,3 +173,59 @@ footer img{
 .activo a{
     text-shadow:0 0 5px rgb(255, 255, 255);
 }
+/* Media Query for medium + screens */
+@media only screen and (min-width: 50.5em) {
+    /*Menu de navegacion*/
+    .Navegacion {
+        display: flex;
+    }
+    .Navegacion li:first-child {
+        display: none;
+    }
+    .Navegacion li{
+        display: block;
+        flex: 1 1 100%;
+    }
+}
+
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:814px){
+    .Navegacion{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .Navegacion li ul{
+        display: block;
+    }
+    .Navegacion li {
+        position: static;;
+        float:none;
+        font-size:15px;
+    }
+    .Navegacion li ul{
+        position: static;;
+        float:none;
+        font-size:15px;
+    }
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+     }
+     #logo img{
+        width: 50%;
+        margin: auto;
+    }
+    /*Footer header*/
+    /*Imagen del pie de pagina*/
+    footer img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+}
