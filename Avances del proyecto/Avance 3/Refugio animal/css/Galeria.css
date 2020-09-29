@@ -1,6 +1,6 @@
 .Pagina{
     color:#C70039;
-    margin: 5% 0 2% 5%;
+    margin: 5% 0 1% 5%;
     text-align:start;
     font-size: 30px;
     font-family: 'Grandstander', cursive;
@@ -18,7 +18,7 @@ h3{
     width:100%;
 }
 .persona-columna{
-    margin:5px
+    margin:5px;
 }
 .personas .contenedor{
     display: grid;
