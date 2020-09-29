@@ -4,16 +4,6 @@ Main{
     display: flex;
     flex-flow: wrap row;
 }
-/*Imagen*/
-#ContenedorImagen{
-    display: block;
-    margin: auto;
-}
-#ContenedorImagen img{
-    width: 80%;
-    display: block;
-    margin: auto;
-}
 #Informacion {
     width: 50%;
     padding:20px;

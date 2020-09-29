@@ -49,19 +49,6 @@
     padding: 0 10px 0 10px;
     font-weight: bold;
 }
-/*Videos informativos*/
-#Videos ol li{
-    margin: 5% 0 5% 0;
-    display: inline-block;
-}
-#Videos h2{
-    display: inline-block;
-    font-family: 'Grandstander', cursive;
-    text-align: center;
-}
-iframe{
-    width:80%;
-}
 #Mensaje h3{
     margin: 5% 0 0 0;
     text-align:center;
