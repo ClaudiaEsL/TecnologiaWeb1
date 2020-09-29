@@ -154,6 +154,26 @@ footer img{
     font-family: 'Domine', serif;
     padding: 10px 0 0 15px ;
 }
+#RedesSociales{
+    display:block;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    margin: auto;
+ }
+ #RedesSociales img{
+    width: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+ }
+#RedesSociales ul li{
+   font-family: 'Domine', serif;
+   font-size: 14px;
+    list-style:none;
+    display: flex;
+    margin: 10px;
+}
+
 /*Derechos de autor y redes sociales-> alineacion*/
 #DerechosReservados{
     text-align: center;
