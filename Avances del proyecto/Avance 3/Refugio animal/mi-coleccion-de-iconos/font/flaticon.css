@@ -25,11 +25,10 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+  font-size:13px;
+  margin-left: 2%;
+  font-style: normal;
 }
-
 .flaticon-simbolo-de-menu-de-tres-lineas-paralelas:before { content: "\f100"; }
 .flaticon-email:before { content: "\f101"; }
 .flaticon-llamada-telefonica:before { content: "\f102"; }
