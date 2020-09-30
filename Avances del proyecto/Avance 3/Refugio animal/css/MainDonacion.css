@@ -37,6 +37,14 @@ h1{
     color:#ff5833;
     font-size: 23px;
 }
+h5{
+    padding-left: 3%;
+    margin: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    color:#ff5833;
+    font-size: 23px;
+}
 #Contenido .punto h2{
     padding: 1%;
     font-family: 'Grandstander', cursive;
