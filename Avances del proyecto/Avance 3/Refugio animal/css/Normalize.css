@@ -212,7 +212,6 @@ footer .Creditos a:hover{
 /*Cambiamos el color del boton dependiendo de la pagina en la que se encuentra*/
 .activo{
     background-color: #ac3131;
-    
 }
 .activo a{
     text-shadow:0 0 5px rgb(255, 255, 255);
