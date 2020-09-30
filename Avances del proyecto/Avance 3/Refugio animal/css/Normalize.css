@@ -181,6 +181,30 @@ footer img{
     font-size: 14px;
     padding:1%;
 }
+/*Creditos*/
+footer .Creditos{
+    text-align: center;
+}
+footer .Creditos h6{
+    text-shadow: #000000 1px 1px;
+    font-family: 'Domine', serif;
+    font-size: 16px;
+    color: white;
+}
+footer .Creditos p{
+    font-family: 'Domine', serif;
+    margin-top: 1%;
+    font-size: 15px;
+}
+footer .Creditos a{
+    font-family: 'Grandstander';
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 252, 58);
+}
+footer .Creditos a:hover{
+    color: rgb(161, 0, 0);
+}
 /*Menu responsivo*/
 .responsive li {
 	display: block;
@@ -247,5 +271,9 @@ footer img{
         margin-right: auto;
         margin-left: auto;
         width: 50%;
+    }
+    footer .Creditos{
+        width:50%;
+        margin:auto;
     }
 }
