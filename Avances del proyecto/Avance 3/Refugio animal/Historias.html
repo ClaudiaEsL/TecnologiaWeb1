@@ -12,7 +12,9 @@
     <!--Fuentes-->
     <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@300&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">   
     <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/Estilos-Historias.css" type="text/css" media="screen">
     <link rel="StyleSheet" href="css/Normalize.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="mi-coleccion-de-iconos/font/flaticon.css" type="text/css" media="screen" >
 
     <title>Historias - Bienestar Animal</title>
     <link rel="shortcut icon" href="Imagenes/patita.jpg">
@@ -24,42 +26,87 @@
     <header>
         <!--Logo de la cabecera-->
         <div id="logo">
-            <img src="Imagenes/Logotipo.webp" alt="">
+            <img src="Imagenes/Logotipo.jpg" alt="">
         </div>
         <div id="NavBuscador">
             <!--Menu de navegacion-->
             <nav>
                 <ul class="Navegacion">
-                    <li class="Boton menu"><a href="#" onclick="MenuDesplegable()"> MENU</a></li>
-                    <li class="Boton n1 "><a href="index.html">HOME</a></li>
+                    <li class="Boton menu"><a href="#" onclick="MenuDesplegable()"><i class="flaticon-simbolo-de-menu-de-tres-lineas-paralelas"></i> MENU</a></li>
+                    <li class="Boton n1 activo"><a href="index.html">HOME</a></li>
                     <li class="Boton n1"><a href="Informacion.html">SOBRE NOSOTROS</a> </li>
-                    <li class="Boton n1 adopcion"><a href="Adopcion.html">ADOPCION</a> 
+                    <li class="Boton n1 adopcion"><a href="Adopcion.html">ADOPCION<i class="flaticon-flecha-hacia-abajo-para-navegar"></i></a> 
                         <ul>
                             <li></li>
-                            <li class="Boton n1 desplegable activo"><a href="Historias.html">CONOCE SU HISTORIA</a></li>
-                            <li class="Boton n1 desplegable"><a href="Adoptados.html">ADOPTADOS</a></li>
+                            <li class="desplegable"><a href="Historias.html">CONOCELOS</a></li>
+                            <li class="desplegable"><a href="Adoptados.html">ADOPTADOS</a></li>
                         </ul>
                     </li>
                     <li class="Boton n1"><a href="donaciones.html">DONACIONES</a> </li>
-                    <li class="Boton n1"><a href="contacto.html">CONTACTO</a> </li>
+                    <li class="Boton n1"><a href="contacto.html">CONTACTO<i class="flaticon-email"></i></a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div id="Container">
-        
+        <div class="perritos">
+            <h1>CONOCELOS</h1>
+            <p>Adoptar es un acto de amor y no hay 
+                ser más agradecido que un ser que sabe que gracias a tí tiene una mejor vida. </p>
+            <div class="perrito uno">
+                <h2>Blanquita</h2>
+                <img src="Imagenes/ListaDePerritos/1.jpg" alt="">
+                <p>Nuestra Blanquita fue encontrada a punto de dar a luz, 
+                    zoonosis estaba a punto de llevarsela. Es una luchadora y 
+                    se merece una familia que le de mucho amor y cuidado.</p>
+                <p>Caracter: Muy guardiana</p>
+                <p>Edad: 4 años</p>
+                <p>Hembrita esterilizada</p>
+            </div>
+            <div class="perrito dos">
+                <h2>El Alcalde</h2>
+                <img src="Imagenes/ListaDePerritos/2.jpg" alt="">
+                <p>Se busca un hogar temporal para nuestro pequeño tiene 3 
+                    días para encontrar un hogar que pueda cuidarlo 
+                    transitoriamente, es un abuelito muy tierno y tranquilo.
+                    Si puedes ayudar al Alcalde con un rinconcito escribenos.</p>
+            </div>
+            <div class="perrito tres">
+                <h2>Mica</h2>
+                <img src="Imagenes/ListaDePerritos/3.jpg" alt="">
+                <p>Esta preciosa fue rescatada vagando por la calle. Mica tiene 2 años, 
+                    es medianita, muy tierna y cariñosa, esta esterilizada y 
+                    lista para formar parte de una familia.</p>
+            </div>
+            <div class="perrito cuatro">
+                <h2>Pequeños trillizos</h2>
+                <img src="Imagenes/ListaDePerritos/4.jpg" alt="">
+                <p>Pequeños cachorritos necesitan un hogar temporal, tuvieron la mala suerte 
+                de tener una mala familia, lamentablemente ellos viajaron al exterior
+                del país y las dejaron a su suerte con otros familiares. Si puedes 
+                ayudarlos. <br>
+                Comunicate con nosotros.</p>
+            </div>
+            <div class="perrito cinco">
+                <h2>Gatitos</h2>
+                <img src="Imagenes/ListaDePerritos/5.jpg" alt="">
+                <p>Se busca hogar para estos tres hermosos hermanitos, 
+                son cariñosos y juguetones, son dos pequeños y una pequeña. <br>
+                Comunicate con nosotros.</p>
+            </div>
+        </div>
     </div>
     <!--Pie de pagina-->
     <footer>
         <!--Logo-->
-        <img src="Imagenes/Logotipo.webp" alt="">
-        <!--Informacion de la organizacion-->
-        <div id="Contenedor">
+        <img src="Imagenes/Logotipo.jpg" alt="">
+         <!--Informacion de la organizacion-->
+         <div id="Contenedor">
             <div id="Direccion">
                 <h3>Direccion</h3>
-                <p class="direccion">Av. Beijing esq. Dorbigni acera sureste
+                <p class="direccion"><i class="flaticon-marcador-de-posicion"></i> Av. Beijing esq. Dorbigni acera sureste
                     Cochabamba.</p>
-                <p class="telefono">Telefono: 2308080 -77229500</p>
+                <p class="telefono"><i class="flaticon-llamada-telefonica"></i> Telefono: 2308080 -77229500</p>
             </div>
         </div>
         <!--Redes sociales-->

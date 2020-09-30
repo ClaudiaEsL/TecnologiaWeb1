@@ -1,0 +1,57 @@
+/*Estilos globales*/
+h1{
+    font-family:'Grandstander';
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 2%;
+    color:#C70039;
+}
+.perritos div > h2{
+    font-family:'Grandstander';
+    font-size: 28px;
+    margin-bottom: 3%;
+    color:#2a418bf8;
+}
+img{
+    width: 55%;
+    margin-bottom: 1%;
+}
+.perritos p{
+    padding: 5px;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+}
+
+
+/*Contenedor padre*/
+.perritos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0% 5% 0%;
+}
+.perrito{
+    background-color:#ff58335b;
+    width: 50%;
+    margin: 2%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:600px){
+    /*Estilos globales*/
+    h1{
+        font-size: 23px;
+    }
+    .perritos p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .perrito{
+        width: 90%;
+    }
+    .perritos div > h2{
+        font-size: 20px;
+    }
+}
