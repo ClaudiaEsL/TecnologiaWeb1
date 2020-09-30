@@ -154,6 +154,7 @@ footer img{
     font-family: 'Domine', serif;
     padding: 10px 0 0 15px ;
 }
+/*Informacion de las redes sociales*/
 #RedesSociales{
     display:block;
     width: 300px;
@@ -164,7 +165,6 @@ footer img{
  #RedesSociales img{
     width: 25px;
     margin-left: 5px;
-    cursor: pointer;
  }
 #RedesSociales ul li{
    font-family: 'Domine', serif;

@@ -40,6 +40,10 @@ form h3{
     height: 100px;
     text-align: start;
 }
+/*Validacion*/
+input:invalid {
+    border: 2px solid red;
+}
 /*Boton enviar*/
 .button{
     color: white;
@@ -50,6 +54,9 @@ form h3{
     border-radius: 2px;
     display: inline-block;
     cursor: pointer;
+}
+.Boton a{
+    text-decoration: none;
 }
 .enviar{
     text-align: center;
