@@ -7,17 +7,18 @@
     color:#C70039;
     margin: 11px;
     text-align:start;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Grandstander', cursive;
 }
 .TituloYSubcontenido p{
     padding:10px;
-    font-size:20px;
+    font-size:18px;
     font-family: 'Noto Sans JP', sans-serif;
+    width:80%
 }
 .perritos div > h2{
     font-family:'Grandstander';
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 3%;
     color:#000000f8;
 }
@@ -32,11 +33,9 @@ img{
 .perritos .perrito p{
     padding: 2%;
     font-family: 'Domine', serif;
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
 }
-
-
 /*Contenedor padre*/
 .perritos{
     display: flex;
